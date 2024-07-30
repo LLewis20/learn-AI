@@ -1,6 +1,6 @@
 # Reinforcement Learning with Deep Q-Learning: LunarLandar-v2
 
-- This repository contains an implementation of Deep Q-Learning (DQN) for solving the LunarLander-v2 environment from OpenAI Gym. This project demonstrates the application of deep reinforcement learning to a classic control problem, where an agent must learn to land a lunar lander safely on a designated landing pad. The implementation includes detailed explanations of how the model works and its connection to fundamental concepts in reinforcement learning such as Bellman’s Equation and Markov Decision Processes (MDPs).
+- This repository contains an implementation of Deep Q-Learning (DQN) for solving the LunarLander-v2 environment from OpenAI Gym along with some notes about Deep Q-Learning. This project demonstrates the application of deep reinforcement learning to a classic control problem, where an agent must learn to land a lunar lander safely on a designated landing pad. The implementation includes detailed explanations of how the model works and its connection to fundamental concepts in reinforcement learning such as Bellman’s Equation and Markov Decision Processes (MDPs).
 
 
 ## Integration with MDPs and Bellman's Equation
@@ -20,6 +20,7 @@ $$ Q_{t}(s,a) = Q_{t-1}(s,a) + \alpha(R(s,a) + \gamma max_{a'}Q(s',a') - Q_{t-1}
 
 
 ## Training Progress Videos
+Below are videos of the progression of the training:
 
 | Epochs         | Description                                                                 | Visualize                                                                                  |
 |----------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
